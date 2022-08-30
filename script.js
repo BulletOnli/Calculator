@@ -23,8 +23,8 @@ inputEl.addEventListener("click", function() {
 
 function update() {
     if (inputEl.checked) {
-        document.body.style.backgroundImage = "url('bg2.png')";
+        document.body.style.backgroundImage = "url('background2.png')";
     } else {
-        document.body.style.backgroundImage = "url('bgsky.png')";
+        document.body.style.backgroundImage = "url('background1.png')";
     }
 }
